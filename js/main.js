@@ -2164,8 +2164,8 @@ advApp.controller('advController', ['$document', '$filter', '$scope', function($
     $scope.merrymerger.unlocks[7] = [[12, [18, 5]]];
     $scope.merrymerger.unlocks[8] = [[12, [18, 5]]];
     $scope.merrymerger.unlocks[9] = [];
-    $scope.merrymerger.cashUpgrades = [[4e+9, [18, 2], false]];
-    $scope.merrymerger.angelUpgrades = [];
+    $scope.merrymerger.cashUpgrades = [[4e+9, [18, 2], false], [250e+12, [18, 2], false], [5e+21, [18, 1.5], false], [900e+21, [16, 1.5], false], [2e+24, [14, 1.5], false], [29e+24, [12, 1.5], false], [50e+24, [10, 1.5], false], [70e+24, [8, 4], false], [120e+24, [6, 12], false], [170e+24, [4, 33], false], [250e+24, [2, 21], false], [400e+24, [0, 19], false]];
+    $scope.merrymerger.angelUpgrades = [[20, [20, 7.5], false, false], [20e+6, [20, 2.5], false, false], [200e+6, [20, 8], false, false], [500e+6, [20, 15], false, false]];
     $scope.merrymerger.managerUpgrades = [];
     $scope.moon.unlocks[0] = [[10, [0, 3.5]],[20, [0, 4]],[40, [0, 4.5]],[80, [0, 5]],[160, [0, 5.5]],[320, [0, 6]],[640, [0, 6.5]],[1280, [0, 7]],[2560, [0, 7.5]],[5120, [0, 999999999]],[10000, [0, 3.5]]];
     $scope.moon.unlocks[1] = [[30, [2, 1.5]],[60, [2, 1.75]],[90, [2, 2]],[120, [2, 2.25]],[160, [2, 2.5]],[200, [2, 2.75]],[240, [2, 3]],[280, [2, 3.25]],[330, [2, 3.5]],[380, [2, 3.75]],[430, [2, 4]],[480, [2, 4.25]],[540, [2, 4.5]],[600, [2, 4.75]],[660, [2, 5]],[720, [2, 5.5]],[790, [2, 5.75]],[860, [2, 6]],[940, [2, 6.25]],[1020, [2, 6.5]],[1110, [2, 6.75]],[1200, [2, 7]],[1400, [2, 7.25]],[1600, [2, 7.5]],[1800, [2, 7.75]],[2000, [2, 999999999]],[2400, [2, 8.5]]];
